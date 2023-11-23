@@ -120,6 +120,19 @@ header {
 .address a:hover {
   color: aquamarine;
 }
+.blockContract {
+  text-align: center;
+  width: 100vw;
+}
+
+.questionContract {
+  width: 100%;
+  font-weight: bold;
+}
+.answerContract {
+  margin-left: 25%;
+  width: 50%;
+}
 @media screen and (max-width: 768px) {
   .container {
     width: 768px;

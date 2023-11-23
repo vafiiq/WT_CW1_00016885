@@ -117,7 +117,7 @@ main {
 }
 .main-carusel {
   position: relative;
-  width: 300px;
+  width: 315px;
   height: 200px;
   transform-style: preserve-3d;
   animation: animate 20s linear infinite;
@@ -131,7 +131,7 @@ main {
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(450px);
   -webkit-box-reflect: below 0px
     linear-gradient(transparent, transparent, #0004);
 }

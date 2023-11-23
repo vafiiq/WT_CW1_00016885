@@ -8,14 +8,12 @@
 }
 body {
   box-sizing: border-box;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 .container {
   background-color: rgb(230, 227, 227);
-  width: 1596px;
+  width: 100%;
 }
 header {
   background-color: rgb(234, 186, 16);
@@ -94,6 +92,26 @@ header {
 .sidebar-menu-list {
   display: none;
 }
+main h3 {
+  text-align: center;
+}
+#Form {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
+}
+
+form input {
+  height: 30px;
+}
+form button {
+  height: 30px;
+}
 
 .footer {
   display: flex;
@@ -119,6 +137,14 @@ header {
 }
 .address a:hover {
   color: aquamarine;
+}
+table {
+  display: flex;
+  flex-direction: row;
+}
+tr {
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   .container {

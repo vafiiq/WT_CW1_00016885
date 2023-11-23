@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -50,8 +50,32 @@
         <!-- end of nav -->
         <!-- start of main -->
         <main>
+            <h3>Please provide your contact information so that our consultant can get out to you in order to address your matter.</h3>
+            <form id="Form" novalidate>
+                <label for="name">name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="number">phone</label>
+                <input type="tel" id="number" name="number" required>
+
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" required>
 
 
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Name:</th>
+                        <th>Phone:</th>
+                        <th>Email:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
 
         </main>
         <!-- end of main -->
@@ -80,5 +104,6 @@
     </div>
 </body>
 <script src="../script.js"></script>
+<script src="./script.js"></script>
 
 </html>

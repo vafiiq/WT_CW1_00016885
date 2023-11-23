@@ -108,11 +108,14 @@ header {
   left: 500px;
   width: 600px;
   top: 500px;
-  color: rgb(240, 248, 251);
+  color: rgb(255, 255, 255);
   font-size: larger;
 }
+.company-text p {
+  text-shadow: 2px 2px 0px #000000;
+}
 .company-text p:hover {
-  color: rgb(43, 45, 43);
+  color: rgb(255, 187, 0);
 }
 .btn-company {
   text-transform: capitalize;
@@ -154,6 +157,10 @@ header {
 .news-container span {
   color: gray;
 }
+.news-container span:hover {
+  color: blue;
+  cursor: pointer;
+}
 .news-container img {
   width: 465px;
   height: 360px;
@@ -172,6 +179,13 @@ header {
   display: flex;
   flex-direction: column;
 }
+.media-video:hover{
+  cursor: pointer;
+}
+.btn-news:hover {
+  background-color: rgb(4, 185, 251);
+  cursor: pointer;
+}
 
 .btn-media {
   color: white;
@@ -179,6 +193,10 @@ header {
   margin-top: 10px;
   border-radius: 10px;
   background-color: rgb(84, 177, 211);
+}
+.btn-media:hover {
+  background-color: rgb(0, 187, 255);
+  cursor: pointer;
 }
 .footer {
   display: flex;
