@@ -4,3 +4,6 @@ _____
 ***Link to the Vercel:*** https://wt-cw-1-00016885.vercel.app/
 _______
 ***Link to the Github:*** https://github.com/vafiiq/WT_CW1_00016885.git
+_______
+***Original design:***
+https://www.uzautomotors.com/
